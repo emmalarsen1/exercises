@@ -4,8 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basics</title>
+    <link rel="stylesheet" href="basics.css" />
   </head>
   <body>
+    <h1>Gæt et tal</h1>
+    <p>Gæt på et tal mellem 0 og 100:</p>
+    <input type="number" id="userGuess" placeholder="Enter your guess" />
+    <button onclick="checkGuess()">Send gæt</button>
+    <div id="feedback"></div>
+    <div id="celebration">
+      <img
+        id="correct-image"
+        src="png/hearts.png"
+        alt="Correct Guess Image"
+        width="200"
+      />
+    </div>
+
     <script src="basics.js"></script>
   </body>
 </html>
