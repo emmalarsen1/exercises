@@ -1,0 +1,14 @@
+[data-filter="dark"] {
+  background-color: black;
+  color: white;
+}
+
+[data-filter="light"] {
+  background-color: white;
+  color: black;
+}
+
+[data-filter="hawaii"] {
+  background-color: rgb(255, 124, 146);
+  color: rgb(253, 253, 184);
+}

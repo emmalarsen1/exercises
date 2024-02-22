@@ -1,0 +1,14 @@
+[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+[data-theme="light"] {
+  background-color: white;
+  color: black;
+}
+
+[data-theme="hawaii"] {
+  background-color: rgb(255, 124, 146);
+  color: rgb(253, 253, 184);
+}
